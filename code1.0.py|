@@ -37,7 +37,7 @@ else:
 print('Resultados\n===========')
 
 resultados = obtener_resultados(palabra)
-print('El código ASCII de "{0}" {1} es: {2}'.format(
+print('El código ASCII de la {1} "{0}"  es: {2}'.format(
     caracter, tipo, resultados['ascii']))
 print('En código binario de "{0}" es: {1}'.format(
     caracter, resultados['binario']))
